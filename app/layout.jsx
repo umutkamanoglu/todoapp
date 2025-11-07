@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange
         >
           <Header />
-          <main>
+          <main className="p-[2vw]">
             {children}
           </main>
         </ThemeProvider>
